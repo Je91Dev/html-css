@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:'work sans',Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            Cm, mm, in, px, pt,pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: none;
+            /*lighter normal bold bolder - 100 - 900*/
+            font-style: none;
+            text-decoration: none;
+        }
+
+        h1 {
+            /*Shorthand Font 
+            - font-style -> Font-Weight -> font-size -> font-family
+
+            font-family: 'work sans',sans-serif ;
+            font-weight:bolder ;
+            font-size: 3em;
+            font-style:italic ;
+            */
+            font: italic bolder 3em 'work sans',sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis mollitia unde saepe asperiores natus. Quos illo nostrum, repellat temporibus omnis dolorum, maxime perspiciatis eum eveniet ea dolores magnam, ipsa pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptatibus voluptate quidem excepturi velit earum ipsum suscipit ut itaque distinctio, amet reiciendis ipsam neque sunt ducimus aliquid, nam molestias dolorum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, officiis cum eos sit, dolorem est, ad eaque omnis eum sed aperiam esse? Beatae cumque, iure et id suscipit nam expedita?</p>
+    <h2>Subtitulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, officiis cum eos sit, dolorem est, ad eaque omnis eum sed aperiam esse? Beatae cumque, iure et id suscipit nam expedita?</p>
+</body>
+</html>
